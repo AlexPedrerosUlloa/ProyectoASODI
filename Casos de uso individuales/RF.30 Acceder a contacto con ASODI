@@ -1,0 +1,42 @@
+<mxfile host="app.diagrams.net" modified="2023-10-05T13:05:17.819Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="uL0MNC9jF-CKf9NXolKl" version="22.0.2" type="google">
+  <diagram name="Página-1" id="R6nXG-AHGXOuCZIGub4r">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TYY95eeGspfrt3L6opp8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TYY95eeGspfrt3L6opp8-1" target="TYY95eeGspfrt3L6opp8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TYY95eeGspfrt3L6opp8-1" value="Paciente&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="225" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TYY95eeGspfrt3L6opp8-3" value="Sistema&lt;br&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="150" width="420" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="TYY95eeGspfrt3L6opp8-4" value="Acceder a sección de contactos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="220" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TYY95eeGspfrt3L6opp8-7" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TYY95eeGspfrt3L6opp8-4" target="TYY95eeGspfrt3L6opp8-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="340" y="330" as="sourcePoint" />
+            <mxPoint x="500" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYY95eeGspfrt3L6opp8-10" value="&amp;lt;Include&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TYY95eeGspfrt3L6opp8-7">
+          <mxGeometry x="-0.3333" relative="1" as="geometry">
+            <mxPoint x="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYY95eeGspfrt3L6opp8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TYY95eeGspfrt3L6opp8-8" target="TYY95eeGspfrt3L6opp8-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TYY95eeGspfrt3L6opp8-8" value="Gestión de contactos por diferentes plataformas" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="220" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TYY95eeGspfrt3L6opp8-9" value="Contacto directo, por llamada, mensajes y chat" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="380" width="140" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

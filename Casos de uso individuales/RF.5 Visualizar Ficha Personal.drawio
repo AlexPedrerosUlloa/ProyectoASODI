@@ -1,0 +1,46 @@
+<mxfile host="Electron" modified="2023-09-10T19:46:50.210Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="53MVGnIUSW_JkTI17gDx" version="21.6.8" type="device">
+  <diagram name="Página-1" id="jhv5VS-aNlMgHZ7dyBwY">
+    <mxGraphModel dx="1418" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AbTJmTaZAA5KFNeOS7hO-1" value="Sistema" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="210" y="20" width="520" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="AbTJmTaZAA5KFNeOS7hO-2" value="Paciente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="210" width="50" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AbTJmTaZAA5KFNeOS7hO-3" value="Presiona opción ver ficha personal" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="410" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AbTJmTaZAA5KFNeOS7hO-4" value="Visualizar ficha personal" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="40" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AbTJmTaZAA5KFNeOS7hO-18" value="Despliega ficha del usuario con toda su información" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="240" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AbTJmTaZAA5KFNeOS7hO-20" value="Accede a ficha" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="daIoWNLw01oSqTphzylU-1" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="AbTJmTaZAA5KFNeOS7hO-2" target="AbTJmTaZAA5KFNeOS7hO-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="280" as="sourcePoint" />
+            <mxPoint x="330" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daIoWNLw01oSqTphzylU-2" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="AbTJmTaZAA5KFNeOS7hO-18" target="AbTJmTaZAA5KFNeOS7hO-3" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="676" y="180" as="sourcePoint" />
+            <mxPoint x="570" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="daIoWNLw01oSqTphzylU-3" value="Include" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="AbTJmTaZAA5KFNeOS7hO-3" target="AbTJmTaZAA5KFNeOS7hO-20" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="410" y="217" as="sourcePoint" />
+            <mxPoint x="483" y="343" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

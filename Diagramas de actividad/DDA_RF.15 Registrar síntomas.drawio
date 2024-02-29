@@ -1,0 +1,126 @@
+<mxfile host="Electron" modified="2023-09-07T16:38:38.327Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="SzGfZvtuvwpb4UclcfNg" version="21.6.8" type="device">
+  <diagram name="Página-1" id="VJ3dDhkdw4sILlnKDVyH">
+    <mxGraphModel dx="1036" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JLB9dS78lTQaM-TFwSQl-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="30" y="80" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JLB9dS78lTQaM-TFwSQl-3" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;perimeterSpacing=0;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="570" y="510" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JLB9dS78lTQaM-TFwSQl-5" value="Presionar el botón &quot;Quiero registrar mis sintomas&quot;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JLB9dS78lTQaM-TFwSQl-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JLB9dS78lTQaM-TFwSQl-1" target="JLB9dS78lTQaM-TFwSQl-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="385" as="sourcePoint" />
+            <mxPoint x="230" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JLB9dS78lTQaM-TFwSQl-7" value="Completar formulario" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JLB9dS78lTQaM-TFwSQl-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JLB9dS78lTQaM-TFwSQl-5" target="OFUJBj4biFuGSBhYL2wF-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="120" as="sourcePoint" />
+            <mxPoint x="130" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JLB9dS78lTQaM-TFwSQl-9" value="Validador de formulario" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="245" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JLB9dS78lTQaM-TFwSQl-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JLB9dS78lTQaM-TFwSQl-7" target="JLB9dS78lTQaM-TFwSQl-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="120" as="sourcePoint" />
+            <mxPoint x="290" y="120" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JLB9dS78lTQaM-TFwSQl-11" value="Notificación de &quot;Error al completar el formulario&quot;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="414" y="255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JLB9dS78lTQaM-TFwSQl-13" value="No" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JLB9dS78lTQaM-TFwSQl-9" target="JLB9dS78lTQaM-TFwSQl-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="150" as="sourcePoint" />
+            <mxPoint x="350" y="180" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JLB9dS78lTQaM-TFwSQl-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="JLB9dS78lTQaM-TFwSQl-11" target="JLB9dS78lTQaM-TFwSQl-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="110" as="sourcePoint" />
+            <mxPoint x="400" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="474" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JLB9dS78lTQaM-TFwSQl-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JLB9dS78lTQaM-TFwSQl-9" target="JLB9dS78lTQaM-TFwSQl-17" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="150" as="sourcePoint" />
+            <mxPoint x="340" y="280" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JLB9dS78lTQaM-TFwSQl-18" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="JLB9dS78lTQaM-TFwSQl-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.4267" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JLB9dS78lTQaM-TFwSQl-17" value="Confirmar registro" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JLB9dS78lTQaM-TFwSQl-19" value="Mensaje de registro completado con exito" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="414" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JLB9dS78lTQaM-TFwSQl-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="JLB9dS78lTQaM-TFwSQl-17" target="JLB9dS78lTQaM-TFwSQl-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="150" as="sourcePoint" />
+            <mxPoint x="350" y="180" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JLB9dS78lTQaM-TFwSQl-21" value="Se registra síntoma" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="414" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JLB9dS78lTQaM-TFwSQl-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="JLB9dS78lTQaM-TFwSQl-19" target="JLB9dS78lTQaM-TFwSQl-21" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="450" as="sourcePoint" />
+            <mxPoint x="520" y="480" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JLB9dS78lTQaM-TFwSQl-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="JLB9dS78lTQaM-TFwSQl-21" target="JLB9dS78lTQaM-TFwSQl-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="540" as="sourcePoint" />
+            <mxPoint x="520" y="570" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OFUJBj4biFuGSBhYL2wF-1" value="Campos desplegados:&lt;br&gt;- Tipo de síntoma&lt;br&gt;- Descripción" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
+          <mxGeometry x="480" y="52.5" width="170" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="OFUJBj4biFuGSBhYL2wF-2" value="Se despliega menú con formulario" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="65" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OFUJBj4biFuGSBhYL2wF-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="OFUJBj4biFuGSBhYL2wF-2" target="JLB9dS78lTQaM-TFwSQl-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="130" as="sourcePoint" />
+            <mxPoint x="160" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OFUJBj4biFuGSBhYL2wF-4" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="OFUJBj4biFuGSBhYL2wF-2" target="OFUJBj4biFuGSBhYL2wF-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="160" as="sourcePoint" />
+            <mxPoint x="470" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OFUJBj4biFuGSBhYL2wF-5" value="Caso de uso N°15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="137.5" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

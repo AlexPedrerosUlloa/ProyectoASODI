@@ -1,0 +1,36 @@
+<mxfile host="app.diagrams.net" modified="2023-11-23T14:09:35.522Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="-P1apweySJDjyicUcgZ5" version="22.1.3" type="google">
+  <diagram name="Página-1" id="R6nXG-AHGXOuCZIGub4r">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TYhUlsBHBoJYOTthg4jd-1" value="Paciente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="255" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TYhUlsBHBoJYOTthg4jd-2" value="Sistema&amp;nbsp;&lt;br&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="170" width="490" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="TYhUlsBHBoJYOTthg4jd-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TYhUlsBHBoJYOTthg4jd-4" target="TYhUlsBHBoJYOTthg4jd-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TYhUlsBHBoJYOTthg4jd-4" value="Notificar recordatorios del registro de sintomas&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="258" y="250" width="156" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TYhUlsBHBoJYOTthg4jd-5" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TYhUlsBHBoJYOTthg4jd-4" target="TYhUlsBHBoJYOTthg4jd-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="420" as="sourcePoint" />
+            <mxPoint x="560" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYhUlsBHBoJYOTthg4jd-6" value="Include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="TYhUlsBHBoJYOTthg4jd-5">
+          <mxGeometry x="0.2623" y="4" relative="1" as="geometry">
+            <mxPoint x="-14" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TYhUlsBHBoJYOTthg4jd-7" value="Redireccionar a página principal" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="250" width="160" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

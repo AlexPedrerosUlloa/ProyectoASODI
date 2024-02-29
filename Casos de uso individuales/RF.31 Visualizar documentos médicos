@@ -1,0 +1,42 @@
+<mxfile host="app.diagrams.net" modified="2023-11-09T14:59:53.465Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="cA2-JOvL78uVSS0oGqiw" version="22.1.0" type="google">
+  <diagram name="Página-1" id="R6nXG-AHGXOuCZIGub4r">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EJuX8A5IhhYPBOXg0_bK-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EJuX8A5IhhYPBOXg0_bK-2" target="EJuX8A5IhhYPBOXg0_bK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EJuX8A5IhhYPBOXg0_bK-2" value="Paciente&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EJuX8A5IhhYPBOXg0_bK-3" value="Sistema" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="210" y="160" width="440" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="EJuX8A5IhhYPBOXg0_bK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EJuX8A5IhhYPBOXg0_bK-5" target="EJuX8A5IhhYPBOXg0_bK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EJuX8A5IhhYPBOXg0_bK-5" value="Visualizar documentos medicos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="235" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EJuX8A5IhhYPBOXg0_bK-6" value="Registro de documentos medicos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="235" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EJuX8A5IhhYPBOXg0_bK-7" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EJuX8A5IhhYPBOXg0_bK-6" target="EJuX8A5IhhYPBOXg0_bK-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="490" y="420" as="sourcePoint" />
+            <mxPoint x="650" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EJuX8A5IhhYPBOXg0_bK-8" value="Include" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="EJuX8A5IhhYPBOXg0_bK-7">
+          <mxGeometry x="0.1818" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EJuX8A5IhhYPBOXg0_bK-9" value="Base de datos de tips de tratamientos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="410" width="140" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" modified="2023-09-10T00:11:46.159Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="x5t4-jHffow6XdjhbPwK" version="21.7.4" type="device">
+  <diagram name="Página-1" id="14OjgwiFQca0Aa2PFBxG">
+    <mxGraphModel dx="1050" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VXTWdjFDdYsJdPnK7kw2-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="107.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VXTWdjFDdYsJdPnK7kw2-2" value="" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;perimeterSpacing=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="618.13" y="590" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VXTWdjFDdYsJdPnK7kw2-3" value="Iniciar sesión como Paciente" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="92.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VXTWdjFDdYsJdPnK7kw2-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VXTWdjFDdYsJdPnK7kw2-1" target="VXTWdjFDdYsJdPnK7kw2-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="412.5" as="sourcePoint" />
+            <mxPoint x="290" y="362.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VXTWdjFDdYsJdPnK7kw2-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VXTWdjFDdYsJdPnK7kw2-3" target="VXTWdjFDdYsJdPnK7kw2-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="147.5" as="sourcePoint" />
+            <mxPoint x="190" y="147.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VXTWdjFDdYsJdPnK7kw2-6" value="Existe medicación registrada" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311.25" y="230" width="132.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VXTWdjFDdYsJdPnK7kw2-7" value="Ingresar medicamento" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="578.13" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VXTWdjFDdYsJdPnK7kw2-8" value="No" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VXTWdjFDdYsJdPnK7kw2-6" target="VXTWdjFDdYsJdPnK7kw2-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="177.5" as="sourcePoint" />
+            <mxPoint x="410" y="207.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VXTWdjFDdYsJdPnK7kw2-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VXTWdjFDdYsJdPnK7kw2-6" target="VXTWdjFDdYsJdPnK7kw2-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="177.5" as="sourcePoint" />
+            <mxPoint x="377.5" y="460" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VXTWdjFDdYsJdPnK7kw2-10" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VXTWdjFDdYsJdPnK7kw2-9">
+          <mxGeometry x="-0.4267" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VXTWdjFDdYsJdPnK7kw2-12" value="Notificar consumo de medicamento según la info. registrada" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="317.5" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VXTWdjFDdYsJdPnK7kw2-14" value="Derivar al usuario a ejecutar el proceso de registro de medicamento" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="546.88" y="80" width="182.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VXTWdjFDdYsJdPnK7kw2-15" value="Acceder a Medicación Consumida" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="92.5" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VXTWdjFDdYsJdPnK7kw2-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VXTWdjFDdYsJdPnK7kw2-15" target="VXTWdjFDdYsJdPnK7kw2-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="157.5" as="sourcePoint" />
+            <mxPoint x="377.5" y="177.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VXTWdjFDdYsJdPnK7kw2-17" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="VXTWdjFDdYsJdPnK7kw2-7" target="VXTWdjFDdYsJdPnK7kw2-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="187.5" as="sourcePoint" />
+            <mxPoint x="530" y="137.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VXTWdjFDdYsJdPnK7kw2-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VXTWdjFDdYsJdPnK7kw2-7" target="VXTWdjFDdYsJdPnK7kw2-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="643.1300000000001" y="330" as="sourcePoint" />
+            <mxPoint x="442.5" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="638" y="460" />
+              <mxPoint x="580" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VXTWdjFDdYsJdPnK7kw2-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VXTWdjFDdYsJdPnK7kw2-12" target="VXTWdjFDdYsJdPnK7kw2-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="388" y="460" as="sourcePoint" />
+            <mxPoint x="480" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="378" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,42 @@
+<mxfile host="Electron" modified="2023-09-10T19:51:02.778Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="Td6J2vwnfs6guiZZoepd" version="21.6.8" type="device">
+  <diagram name="Página-1" id="1CiJYlsJ-GYo2mxrHgIy">
+    <mxGraphModel dx="1418" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3wXHx7XBI6nNHDKiFcOt-5" value="Block" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="190" y="120" width="470" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="3wXHx7XBI6nNHDKiFcOt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3wXHx7XBI6nNHDKiFcOt-1" target="3wXHx7XBI6nNHDKiFcOt-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3wXHx7XBI6nNHDKiFcOt-1" value="Usuario&lt;br&gt;ASODI" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="215" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3wXHx7XBI6nNHDKiFcOt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3wXHx7XBI6nNHDKiFcOt-4" target="3wXHx7XBI6nNHDKiFcOt-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3wXHx7XBI6nNHDKiFcOt-4" value="Eliminar publicaciones del apartado informátivo" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="210" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3wXHx7XBI6nNHDKiFcOt-6" value="Sistema de gestión de publicaciones informativas" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="414" y="210" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3wXHx7XBI6nNHDKiFcOt-7" value="Base de datos de publicaciones informativas" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="360" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3wXHx7XBI6nNHDKiFcOt-8" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3wXHx7XBI6nNHDKiFcOt-6" target="3wXHx7XBI6nNHDKiFcOt-7" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="380" as="sourcePoint" />
+            <mxPoint x="510" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3wXHx7XBI6nNHDKiFcOt-9" value="&amp;lt;Include&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="3wXHx7XBI6nNHDKiFcOt-8" vertex="1" connectable="0">
+          <mxGeometry x="0.0972" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
